@@ -11,7 +11,6 @@ return new class extends Migration
      *
      * @return void
      */
-
     public function up()
     {
         Schema::create('cl_sv_accounting', function (Blueprint $table) {
@@ -58,7 +57,6 @@ return new class extends Migration
             $table->index('pax_mobile', 'index_cl_sv_accounting__pax_mobile');
             $table->index('pass_id', 'index_cl_sv_accounting__pass_id');
         });
-
     }
 
     /**
